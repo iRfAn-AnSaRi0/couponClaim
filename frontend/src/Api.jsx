@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "https://couponclaimbackend.onrender.com";
+const API_URL = "https://couponclaimbackend.onrender.com/v2";
 
 export const getCoupons = async () => {
   const response = await axios.get(`${API_URL}/coupons`);
